@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waheba Husain — AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="noise"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">WH<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="https://mail.google.com/mail/?view=cm&to=wahebahusain117@gmail.com&su=Hiring%20Inquiry" target="_blank" rel="noopener" class="nav-cta">Hire Me</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text" aria-hidden="true">AI</div>
+
+    <!-- LEFT: text content -->
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for internships &amp; collaborations
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">Waheba</span>
+        <span class="title-line accent">Husain</span>
+      </h1>
+      <div class="hero-role">
+        <span class="role-static">I build</span>
+        <div class="role-ticker">
+          <span>NLP Pipelines</span>
+          <span>LLM Systems</span>
+          <span>RAG Architectures</span>
+          <span>Deep Learning Models</span>
+          <span>AI-Powered APIs</span>
+        </div>
+      </div>
+      <p class="hero-desc">CS undergrad @ BBDU · Finalist, Smallest AI Hackathon SF · Backend &amp; AI Intern @ Upstride</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          View Projects
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/waheba-husain" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+        <a href="https://github.com/waheba-husain" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+      </div>
+    </div>
+
+    <!-- RIGHT: photo + floating cards -->
+    <div class="hero-visual">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+
+      <div class="photo-frame">
+        <div class="photo-ring"></div>
+        <div class="photo-ring photo-ring-2"></div>
+        <img src="waheba.jpg" alt="Waheba Husain" class="hero-photo" />
+      </div>
+
+      <div class="floating-card card-1">
+        <div class="fc-label">Accuracy</div>
+        <div class="fc-value">89%+</div>
+        <div class="fc-sub">SentinelAI · RoBERTa</div>
+      </div>
+      <div class="floating-card card-2">
+        <div class="fc-label">Pipeline Speedup</div>
+        <div class="fc-value">60%</div>
+        <div class="fc-sub">Excel Ingestion · Upstride</div>
+      </div>
+      <div class="floating-card card-3">
+        <div class="fc-label">Classification</div>
+        <div class="fc-value">81.17%</div>
+        <div class="fc-sub">Sentiment · OpenRouter</div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Python</span><span>·</span><span>PyTorch</span><span>·</span><span>LangChain</span><span>·</span>
+      <span>FastAPI</span><span>·</span><span>RAG</span><span>·</span><span>React</span><span>·</span>
+      <span>RoBERTa</span><span>·</span><span>MongoDB</span><span>·</span><span>Docker</span><span>·</span>
+      <span>TensorFlow</span><span>·</span><span>DistilBERT</span><span>·</span><span>LLaMA</span><span>·</span>
+      <span>Groq API</span><span>·</span><span>LSTM</span><span>·</span>
+      <span>Python</span><span>·</span><span>PyTorch</span><span>·</span><span>LangChain</span><span>·</span>
+      <span>FastAPI</span><span>·</span><span>RAG</span><span>·</span><span>React</span><span>·</span>
+      <span>RoBERTa</span><span>·</span><span>MongoDB</span><span>·</span><span>Docker</span><span>·</span>
+      <span>TensorFlow</span><span>·</span><span>DistilBERT</span><span>·</span><span>LLaMA</span><span>·</span>
+      <span>Groq API</span><span>·</span><span>LSTM</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Turning data into<br /><em>decisions</em></h2>
+          <p class="about-bio">I'm a Computer Science undergrad at Babu Banarasi Das University, Lucknow (CGPA 8.4/10), obsessed with building AI systems that actually ship. I've worked across the full ML stack — from fine-tuning transformers and designing RAG pipelines to engineering production-ready FastAPI backends.</p>
+          <p class="about-bio">When I'm not training models, I'm anchoring events, editing college magazines, or competing in global hackathons. I was a finalist at the Smallest AI Hackathon in San Francisco — competing against international teams.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-num">2</div>
+              <div class="stat-label">Internships</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">5+</div>
+              <div class="stat-label">AI Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">3</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="skills-grid">
+            <div class="skill-category">
+              <div class="skill-cat-title">Languages</div>
+              <div class="skill-tags">
+                <span class="tag">Python</span><span class="tag">JavaScript</span>
+                <span class="tag">Java</span><span class="tag">HTML</span><span class="tag">CSS</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-title">Frameworks</div>
+              <div class="skill-tags">
+                <span class="tag">FastAPI</span><span class="tag">PyTorch</span>
+                <span class="tag">TensorFlow</span><span class="tag">React</span>
+                <span class="tag">LangChain</span><span class="tag">Flask</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-title">AI / ML</div>
+              <div class="skill-tags">
+                <span class="tag tag-accent">RAG</span><span class="tag tag-accent">LLM Fine-tuning</span>
+                <span class="tag tag-accent">RoBERTa</span><span class="tag tag-accent">LSTM</span>
+                <span class="tag tag-accent">Prophet</span><span class="tag tag-accent">NLP</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-title">Tools &amp; DevOps</div>
+              <div class="skill-tags">
+                <span class="tag">Docker</span><span class="tag">Git</span>
+                <span class="tag">MongoDB</span><span class="tag">MySQL</span><span class="tag">REST API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-label">02 / Experience</div>
+      <h2 class="section-title">Where I've <em>worked</em></h2>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-date">Apr 2026 — Present</div>
+            <div class="tl-company">Upstride</div>
+          </div>
+          <div class="tl-connector">
+            <div class="tl-dot active"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-right">
+            <div class="tl-role">Backend &amp; AI Intern</div>
+            <ul class="tl-bullets">
+              <li>Automated Excel ingestion pipeline — parsed multi-format Excel data into structured JSON, cutting manual processing time by <strong>~60%</strong></li>
+              <li>Schema mapping &amp; normalization across <strong>5+ Excel formats</strong>, ensuring 100% consistent structured JSON output</li>
+              <li>Engineered a RESTful <strong>FastAPI endpoint</strong> orchestrating end-to-end ingestion and automated push to <strong>MongoDB Atlas</strong></li>
+            </ul>
+            <div class="tl-tags"><span>FastAPI</span><span>MongoDB</span><span>Python</span><span>REST API</span></div>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-date">Feb — Apr 2026</div>
+            <div class="tl-company">Infosys Springboard</div>
+          </div>
+          <div class="tl-connector">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-right">
+            <div class="tl-role">Virtual AI Intern</div>
+            <ul class="tl-bullets">
+              <li>Built LLM-based sentiment pipeline using OpenRouter API + NLP preprocessing — <strong>81.17% accuracy</strong> on real-world market data</li>
+              <li>Designed AI pipeline for consumer sentiment forecasting with <strong>RAG architecture</strong> + vector retrieval</li>
+              <li>Resolved cross-module data conflicts, shipping a production-ready build to GitHub with full pipeline integrity</li>
+            </ul>
+            <div class="tl-tags"><span>LLM</span><span>RAG</span><span>OpenRouter API</span><span>NLP</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="certs-row reveal">
+        <div class="cert-card">
+          <div class="cert-icon">🎓</div>
+          <div><div class="cert-name">Prompt Engineering</div><div class="cert-issuer">Infosys Springboard · 2025</div></div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🧠</div>
+          <div><div class="cert-name">Deep Learning for Developers</div><div class="cert-issuer">Infosys Springboard · 2025</div></div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">📊</div>
+          <div><div class="cert-name">Career Essentials in Data Analysis</div><div class="cert-issuer">Microsoft · 2025</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label">03 / Projects</div>
+      <h2 class="section-title">Things I've <em>built</em></h2>
+      <div class="projects-grid">
+        <div class="project-card featured reveal" data-index="01">
+          <div class="proj-header">
+            <div class="proj-number">01</div>
+            <div class="proj-links">
+              <a href="https://github.com/waheba-husain" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="proj-title">SentinelAI</h3>
+          <p class="proj-subtitle">Social Media Threat Detection System</p>
+          <p class="proj-desc">Real-time multi-class threat detection using fine-tuned RoBERTa &amp; DistilBERT on social media content. Integrated a Groq-hosted LLaMA conversational assistant for emergency mental health support.</p>
+          <div class="proj-metric">
+            <div class="metric-bar"><div class="metric-fill" style="--pct: 89%"></div></div>
+            <span>89%+ classification accuracy</span>
+          </div>
+          <div class="proj-stack"><span>RoBERTa</span><span>DistilBERT</span><span>Flask</span><span>LLaMA</span><span>REST API</span></div>
+        </div>
+        <div class="project-card reveal" data-index="02">
+          <div class="proj-header">
+            <div class="proj-number">02</div>
+            <div class="proj-links">
+              <a href="https://github.com/waheba-husain" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="proj-title">DemandSense</h3>
+          <p class="proj-subtitle">Electricity Demand Forecasting</p>
+          <p class="proj-desc">Demand forecasting using Prophet &amp; LSTM on 10+ years of hourly EIA energy data. Includes anomaly detection and an NLP query interface for natural language trend insights.</p>
+          <div class="proj-metric">
+            <div class="metric-bar"><div class="metric-fill" style="--pct: 75%"></div></div>
+            <span>10+ years of EIA data modelled</span>
+          </div>
+          <div class="proj-stack"><span>Prophet</span><span>LSTM</span><span>NLP</span><span>Python</span><span>EIA Datasets</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <div class="section-label">04 / Achievements</div>
+      <h2 class="section-title">Beyond the <em>code</em></h2>
+      <div class="ach-grid">
+        <div class="ach-card reveal">
+          <div class="ach-icon">🏆</div>
+          <div class="ach-text"><strong>Finalist</strong> — Smallest AI Hackathon, San Francisco (Global)<p>Competed against international teams</p></div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-icon">⚡</div>
+          <div class="ach-text"><strong>Participant</strong> — EY Techathon 6.0</div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-icon">🎙️</div>
+          <div class="ach-text"><strong>Anchor</strong> — IIT Kanpur Zonals<p>Student Coordinator · Annual University Fest</p></div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-icon">✍️</div>
+          <div class="ach-text"><strong>Content Writer &amp; Editor</strong> — BBDET College Magazine</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label">05 / Contact</div>
+      <h2 class="section-title contact-title">Let's build something <em>together</em></h2>
+      <p class="contact-desc">I'm actively looking for internships and collaborative AI projects. Whether you have an idea, an open role, or just want to talk AI — my inbox is open.</p>
+      <div class="contact-links">
+        <a href="https://mail.google.com/mail/?view=cm&to=wahebahusain117@gmail.com&su=Hiring%20Inquiry" target="_blank" rel="noopener" class="contact-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          wahebahusain117@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/waheba-husain" target="_blank" rel="noopener" class="contact-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          linkedin.com/in/waheba-husain
+        </a>
+        <a href="https://github.com/waheba-husain" target="_blank" rel="noopener" class="contact-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          github.com/waheba-husain
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Waheba Husain</span>
+      <span>Designed &amp; built from scratch</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
